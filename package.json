@@ -1,0 +1,46 @@
+{
+  "name": "markdown-data-loader",
+  "version": "0.0.1",
+  "description": "convert bisheng-style markdown file to js module which export an object",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "dev": "node ./build/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliqin/markdown-data-loader.git"
+  },
+  "author": "lynsun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliqin/markdown-data-loader/issues"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "babel-cli": "~6.3.17",
+    "babel-core": "~6.3.26",
+    "babel-plugin-transform-es2015-destructuring": "^6.22.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+    "babel-plugin-transform-es2015-parameters": "^6.22.0",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-plugin-transform-strict-mode": "^6.22.0",
+    "loader-utils": "^0.2.16",
+    "markdown-it": "^8.2.2",
+    "rimraf": "^2.5.4",
+    "yaml-front-matter": "^3.4.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.19.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-plugin-transform-es2015-parameters": "^6.21.0",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-plugin-transform-strict-mode": "^6.18.0"
+  },
+  "homepage": "https://github.com/aliqin/markdown-data-loader#readme"
+}
